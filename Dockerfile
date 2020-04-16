@@ -1,6 +1,6 @@
 FROM	centos:latest
 MAINTAINER	tanya.gulati@mykaarma.com
-RUN	yum install httpd wget vim -y
+RUN	yum install httpd wget -y
 COPY	index.html /var/www/html
 #COPY	test.txt /var/www/html
 WORKDIR	/var/www/html
